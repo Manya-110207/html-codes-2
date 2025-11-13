@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTUBE VIDEOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #cc0000;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      max-width: 500px;
+      margin: 20px auto;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      text-decoration: none;  color: #0066cc;  font-size: 18px; transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    a:hover {
+      color: #cc0000;
+      text-shadow: 0 0 5px rgba(204, 0, 0, 0.5);
+    }
+
+    .video-container {
+      display: flex; justify-content: center; margin-top: 40px;
+    }
+
+    iframe {
+      width: 560px;  height: 315px; border: none;  border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Favorite YouTube Videos</h1>
+
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Video 1 - Rick Astley</a></li>
+    <li><a href="https://www.youtube.com/watch?v=3JZ_D3ELwOQ" target="_blank">Video 2 - Mark Ronson ft. Bruno Mars</a></li>
+    <li><a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank">Video 3 - Despacito</a></li>
+    <li><a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank">Video 4 - Gangnam Style</a></li>
+    <li><a href="https://www.youtube.com/watch?v=fRh_vgS2dFE" target="_blank">Video 5 - Justin Bieber - Sorry</a></li>
+  </ul>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="Embedded YouTube video"
+            allowfullscreen>
+    </iframe>
+  </div>
+    </body>
+</html>   
